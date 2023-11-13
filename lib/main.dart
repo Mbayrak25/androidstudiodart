@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
   String sinavHesapla(int puan) {
     String message = "";
     if (puan >= 50) {
-      message = "Geçti";
+      message = "Geçtim";
     } else if (puan >= 40) {
       message = "Bütünleme";
     } else {
