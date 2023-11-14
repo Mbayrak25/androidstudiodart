@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
             child: ElevatedButton(
               child: Text("Sonuç için tıkla!"),
               onPressed: () {
-                var message= sinavHesapla(75);
+                var message= sinavHesapla(1);
                 showMessage(context,message);
               },
             ),
